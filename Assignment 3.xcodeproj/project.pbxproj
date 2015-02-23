@@ -11,7 +11,6 @@
 		CA77CDF01A98535000B1404F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77CDEF1A98535000B1404F /* ViewController.swift */; };
 		CA77CDF31A98535000B1404F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA77CDF11A98535000B1404F /* Main.storyboard */; };
 		CA77CDF51A98535000B1404F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA77CDF41A98535000B1404F /* Images.xcassets */; };
-		CA77CDF81A98535000B1404F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA77CDF61A98535000B1404F /* LaunchScreen.xib */; };
 		CA77CE041A98535000B1404F /* Assignment_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA77CE031A98535000B1404F /* Assignment_3Tests.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		CA77CDEF1A98535000B1404F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA77CDF21A98535000B1404F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA77CDF41A98535000B1404F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CA77CDF71A98535000B1404F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CA77CDFD1A98535000B1404F /* Assignment 3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment 3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA77CE021A98535000B1404F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA77CE031A98535000B1404F /* Assignment_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_3Tests.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				CA77CDEF1A98535000B1404F /* ViewController.swift */,
 				CA77CDF11A98535000B1404F /* Main.storyboard */,
 				CA77CDF41A98535000B1404F /* Images.xcassets */,
-				CA77CDF61A98535000B1404F /* LaunchScreen.xib */,
 				CA77CDEB1A98535000B1404F /* Supporting Files */,
 			);
 			path = "Assignment 3";
@@ -193,7 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA77CDF31A98535000B1404F /* Main.storyboard in Resources */,
-				CA77CDF81A98535000B1404F /* LaunchScreen.xib in Resources */,
 				CA77CDF51A98535000B1404F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +238,6 @@
 				CA77CDF21A98535000B1404F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CA77CDF61A98535000B1404F /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA77CDF71A98535000B1404F /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Assignment 3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Assignment 3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
